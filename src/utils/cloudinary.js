@@ -20,3 +20,4 @@ const upoloadOnCloudinary = async (localFilePath) => {
     fs.unlikSync(localFilePath); // remove the locally saved temporary file as the upload operation got failed
   }
 };
+export { upoloadOnCloudinary };
